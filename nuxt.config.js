@@ -18,7 +18,12 @@ module.exports = {
   */
   loading: { color: '#3B8070' },
 
-  modules: ["nuxtent", "nuxt-netlify-cms"],
+  modules: [
+    "nuxtent", 
+    "nuxt-netlify-cms",
+    "nuxtent"
+    ],
+    
   nuxtent: {
     content: {
       page: "/_post",
